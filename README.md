@@ -29,7 +29,18 @@ Dataset characteristics:
 - Grayscale images
 - **10 clothing categories**
 
-The dataset is automatically downloaded when the training script runs.
+## Dataset Download
+
+The FashionMNIST dataset is **not included in this repository**.
+
+When the training script runs, the dataset is automatically downloaded using `torchvision` and stored locally in a `data/` folder.
+
+This prevents the repository from containing large files while keeping the project easy to run.
+
+The dataset will be downloaded automatically when running:
+
+
+python train.py
 
 ### Clothing Categories
 
@@ -253,15 +264,13 @@ predictions.csv
 
 # Files Included
 
-| File / Folder | Description |
-|---------------|-------------|
+| File | Description |
+|-----|-------------|
 | `model.py` | Defines the CNN neural network architecture |
 | `train.py` | Trains the model using the FashionMNIST dataset |
 | `predict.py` | Loads the trained model and generates predictions |
 | `predictions.csv` | CSV file containing predicted labels |
 | `fashion_cnn.pth` | Saved neural network model weights |
-| `data/` | Dataset downloaded automatically |
-| `__pycache__/` | Python cache files generated during execution |
 | `README.md` | Project documentation |
 
 ---
