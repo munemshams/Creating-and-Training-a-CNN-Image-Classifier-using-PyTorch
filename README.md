@@ -29,18 +29,6 @@ Dataset characteristics:
 - Grayscale images
 - **10 clothing categories**
 
-## Dataset Download
-
-The FashionMNIST dataset is **not included in this repository**.
-
-When the training script runs, the dataset is automatically downloaded using `torchvision` and stored locally in a `data/` folder.
-
-This prevents the repository from containing large files while keeping the project easy to run.
-
-The dataset will be downloaded automatically when running:
-
-
-python train.py
 
 ### Clothing Categories
 
@@ -57,7 +45,18 @@ python train.py
 | 8 | Bag |
 | 9 | Ankle boot |
 
----
+## Dataset Download
+
+The FashionMNIST dataset is **not included in this repository**.
+
+When the training script runs, the dataset is automatically downloaded using `torchvision` and stored locally in a `data/` folder.
+
+This prevents the repository from containing large files while keeping the project easy to run.
+
+The dataset will be downloaded automatically when running:
+
+
+python train.py
 
 # Model Architecture
 
