@@ -1,4 +1,4 @@
-# Fashion MNIST CNN Image Classifier (PyTorch)
+# Creating and Training a CNN Image Classifier (PyTorch)
 
 ## Overview
 
