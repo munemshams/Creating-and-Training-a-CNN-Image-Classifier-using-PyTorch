@@ -2,15 +2,22 @@
 
 ## Overview
 
-This project builds a **Convolutional Neural Network (CNN)** using **PyTorch** to classify images from the **FashionMNIST dataset**. The model learns patterns from grayscale clothing images and predicts the category of each item.
+This project builds a **Convolutional Neural Network (CNN)** using **PyTorch** to classify images from the **FashionMNIST dataset**. The model learns visual patterns from grayscale clothing images and predicts the category of each item.
 
-The project demonstrates a complete deep learning workflow:
+FashionMNIST is a dataset created by **Zalando**, a large European online fashion retailer headquartered in Germany. The dataset was introduced as a more challenging replacement for the traditional MNIST handwritten digit dataset, which had become too simple for modern machine learning algorithms.
 
-- Building a neural network model
-- Training the model on image data
-- Saving the trained model
-- Running inference on test data
+The dataset contains **70,000 grayscale images of clothing items**, each belonging to one of **10 fashion categories** such as shirts, trousers, dresses, sneakers, and bags. Each image is **28×28 pixels**, making the dataset lightweight and ideal for experimenting with deep learning models.
+
+In this project, a **Convolutional Neural Network (CNN)** is trained to automatically learn patterns from these images and classify them into the correct clothing category.
+
+The project demonstrates a full deep learning workflow including:
+
+- Building a neural network architecture
+- Training a model on image data
+- Saving trained model weights
+- Running inference on unseen data
 - Exporting predictions to a CSV file
+
 
 This project showcases **deep learning and computer vision using Python and PyTorch**.
 
