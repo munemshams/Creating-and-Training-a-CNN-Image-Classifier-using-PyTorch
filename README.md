@@ -183,48 +183,6 @@ python -m pip install torch torchvision pandas numpy
 
 ---
 
-# Library Explanations
-
-### PyTorch (`torch`)
-
-PyTorch is the main deep learning framework used in this project. It provides tools for:
-
-- building neural networks
-- performing tensor operations
-- training models using gradient descent
-- saving and loading trained models
-
----
-
-### Torchvision (`torchvision`)
-
-Torchvision provides datasets and utilities for computer vision tasks.
-
-In this project it is used to:
-
-- automatically download the **FashionMNIST dataset**
-- load image data
-- convert images into tensors
-
----
-
-### Pandas (`pandas`)
-
-Pandas is used to handle structured data.
-
-In this project it is used to:
-
-- organize prediction results
-- create a dataframe
-- export predictions to **predictions.csv**
-
----
-
-### NumPy (`numpy`)
-
-NumPy provides efficient numerical operations used in machine learning and scientific computing.
-
----
 
 # How to Run the Project
 
